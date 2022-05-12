@@ -1,0 +1,7 @@
+CREATE TABLE PUBLIC.TeamDetails(
+	SI_No SERIAL,
+	Team_Name VARCHAR(50) PRIMARY KEY,
+	Captain VARCHAR(50),
+	Owner VARCHAR(50),
+	Home_Ground VARCHAR(50)
+);
